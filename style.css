@@ -52,33 +52,33 @@ html, body {
   }
 
   img {
-    height: 20;
-    width: 20;
-    text-align:center;
+    height: 20; /*altura*/
+    width: 20; /*largura*/
+    text-align:center; /*popsição das imagens*/
   }
 
   ul {
-    font-size: 1.125rem; /* Aumenta o tamanho da lista */
-    line-height: 1.6;
+    font-size: 1.125rem; /* Aumenta ou diminui o tamanho da lista */
+    line-height: 1.6; /*altura*/
   }
   .contact-row {
 display: flex;
 justify-content: space-between;
-align-items: center;
-margin-top: 20px;
+align-items: center; /*alinhamento dos itens*/
+margin-top: 20px; /*tamanho da margem*/
 }
 
 .contact-left {
-text-align: left;
+text-align: left; /*alinhamento texto*/
 flex: 1;
 }
 
 .contact-center {
-text-align: center;
+text-align: center; /*alinhamento texto*/
 flex: 1;
 }
 
 .contact-right {
-text-align: right;
+text-align: right; /*alinhamento texto*/
 flex: 1;
 }
