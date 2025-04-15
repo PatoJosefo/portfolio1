@@ -4,67 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      font-family: 'Arial', sans-serif; /* Fonte padronizada */
-    }
-
-    .content-wrapper {
-      min-height: 100%;
-      padding-bottom: 100px; /* Espaço pro footer */
-      box-sizing: border-box;
-    }
-
-    footer {
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-
-    body {
-      position: relative;
-    }
-
-    /* Títulos h1 e h2 */
-    h1, h2 {
-      text-align: center;
-      font-weight: bold; /* Negrito */
-      text-transform: uppercase; /* Letras maiúsculas */
-    }
-
-    /* Aumentando o tamanho da fonte dos títulos */
-    h1 {
-      font-size: 3rem; /* Aumenta o tamanho do h1 */
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      font-size: 2.5rem; /* Aumenta o tamanho do h2 */
-      margin-bottom: 20px;
-    }
-
-    h3 {
-      font-weight: bold;
-      color: rgb(207, 0, 0);
-      text-align:center
-    }
-
-    /* Aumentando o tamanho da fonte dos parágrafos */
-    p {
-      font-size: 1.2rem; /* Aumenta o tamanho do parágrafo */
-      line-height: 1.; /* Melhora a legibilidade */
-      text-align:center
-    }
-
-    ul {
-      font-size: 1.125rem; /* Aumenta o tamanho da lista */
-      line-height: 1.6;
-    }
-
+     h3 {
+    font-weight: bold;
+    color: rgb(255, 38, 0);
+    text-align:center; /* Altera a posição do texto*/
+  }
+  
   </style>
 </head>
 
@@ -93,7 +42,7 @@
             <a class="nav-link" href="#section5">Documentation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section6">Certificates and Degrees</a>
+            <a class="nav-link" href="#section6">Certificates</a>
           </li>
         </ul>
       </div>
@@ -141,6 +90,13 @@
 <p>
   These efforts contributed to the successful progression of the project, aligning with the established goals and timelines.
 </p>
+
+<div>
+    <img src="./images/Figma.gif" alt="" style="width: 380px; height: auto;">
+    <img src="./images/Backlog.gif" alt="" style="width: 380px; height: auto;">
+    <img src="./images/github.gif" alt="" style="width: 380px; height: auto;">
+  </div>
+
 </div>
 
   <!-- Section 4: Habilities -->
@@ -175,25 +131,34 @@
   <div id="section7" class="container-fluid bg-white text-black section-container" style="padding:20px 50px 0px 50px;">
     <h2>Contacts</h2>
     <h3>Get in touch with me</h3>
-    <p>
-      <i class="fa-solid fa-envelope"></i>
-      <i id="email">patojosefos24fe@gmail.com</i>
-
-      <a href="https://www.linkedin.com/in/rafael-oliveira-3603a7355" target="_blank">
-        <i class="fa-brands fa-linkedin"></i> My LinkedIn profile
-      </a>
-
-      <a href="https://github.com/PatoJosefo" target="_blank">
-        <i class="fa-brands fa-github"></i> My GitHub profile
-      </a>
-    </p>
+  
+    <div class="contact-row">
+        <div class="contact-left">
+            <img src="images/gmail.png" class="small-img" alt="Description"> patojosefos24fe@gmail.com
+            <a href="mailto:patojosefos24fe@gmail.com" target="_black">
+            </a>
+        </div>
+    
+        <div class="contact-center">
+          <a href="https://www.linkedin.com/in/rafael-oliveira-3603a7355" target="_blank">
+            <img src="images/linkedin.png" class="small-img" alt="Description"> My LinkedIn profile
+          </a>
+        </div>
+    
+        <div class="contact-right">
+          <a href="https://github.com/PatoJosefo" target="_blank">
+            <img src="images/github.png" class="small-img" alt="Description"> My GitHub profile
+          </a>
+        </div>
+      </div>
     </div>
+  
 
 </div> <!-- Fim do content-wrapper -->
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-4">
-  <div class="container">
+    <div class="container">
     <p class="mb-1">&copy; 2025 Rafael Oliveira. All Rights Reserved.</p>
     <p class="mb-0">Created by Rafael Oliveira</p>
   </div>
