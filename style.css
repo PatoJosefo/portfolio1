@@ -11,8 +11,9 @@ html, body {
   }
 
   footer {
-    position: relative;
-    bottom: 0;
+    margin-top: 4%;
+    position: absolute;
+    margin-bottom: 0%;
     width: 100%;
     text-align:center;
   }
