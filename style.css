@@ -28,7 +28,7 @@ footer {
 .gifs {
   display: flex;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   width: 100%;
   gap: 20px;
 }
